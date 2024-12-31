@@ -104,18 +104,32 @@
   }
 }
 //14
+// {
+//   let email = "mohammedziadeh6@gmail.com";
+//   let password = "momo550011";
+
+//   if (email != "mohammedziadeh6@gmail.com") {
+//     document.getElementById("porg").innerHTML = "Incorrect email";
+//   } else if (password != "momo550011") {
+//     document.getElementById("porg").innerHTML = "Incorrect password";
+//   } else {
+//     document.getElementById("porg").innerHTML = "Welcome";
+//   }
+// }
 {
   let email = "mohammedziadeh6@gmail.com";
   let password = "momo550011";
-
-  if (email != "mohammedziadeh6@gmail.com") {
-    document.getElementById("porg").innerHTML = "Incorrect email";
-  } else if (password != "momo550011") {
-    document.getElementById("porg").innerHTML = "Incorrect password";
+  if (email == "mohammedziadeh6@gmail.com") {
+    if (password == "momo550011") {
+      document.getElementById("porg").innerHTML = "Welcome";
+    } else {
+      document.getElementById("porg").innerHTML = "Incorrect password";
+    }
   } else {
-    document.getElementById("porg").innerHTML = "Welcome";
+    document.getElementById("porg").innerHTML = "Incorrect email";
   }
 }
+
 //15
 {
   function isNumber(num) {
