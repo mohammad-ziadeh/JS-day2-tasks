@@ -53,15 +53,19 @@
   let GPA = "A";
   switch (GPA) {
     case "F":
+    case "f":
       document.getElementById("gpa").innerHTML = "Failed";
       break;
     case "C":
+    case "c":
       document.getElementById("gpa").innerHTML = "Good";
       break;
     case "B":
+    case "b":
       document.getElementById("gpa").innerHTML = "Very good";
       break;
     case "A":
+    case "a":
       document.getElementById("gpa").innerHTML = "Excellent";
       break;
     default:
